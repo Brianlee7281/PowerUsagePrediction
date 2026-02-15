@@ -8,6 +8,7 @@
     3. Based on the PyCaret results, Decision Tree, K-Nearest Neighbor, and Huber regressors were chosen. With the Decision Tree Regressor, key hyper parameters were max_depth for preventing tree’s overgrowing and min_samples_split to control the minimum number of samples required to split in a node. In KNN Regressor, key hyper parameters were n_neighbors and weights to determinate number of closest data points to consider. With the Huber Regressor, alpha and epsilon was used. To maximize forecasting accuracy for electricity consumption, a Stacking Regressor was implemented with the tree chosen models.
 
 <img width="663" height="434" alt="Screenshot 2026-02-15 at 12 10 24 AM" src="https://github.com/user-attachments/assets/a2f7d1bf-7162-4751-abf5-685ae6c8e83c" />
+
 4. Outcome
     1. The final model demonstrated strong forecasting accuracy, effectively capturing the patterns in electricity consumption influenced by temporal and meteorological factors. The use of clustering as an additional feature and the stacking ensemble approach contributed significantly to the model's performance. This project highlights the practical applicability of machine learning in energy management, showcasing how advanced regression techniques and feature engineering can be used to forecast electricity consumption accurately. The pipeline developed in this project can be further extended and deployed in real-world industrial settings to optimize energy supply and demand.
 
